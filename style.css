@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ :root {
+    --head1: #279989;
+    --head2: #5FA789;
+    --body: #ffc845;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.shop-head {
+    background-color: var(--head1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.shop-list {
+    background-color: var(--head2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-body {
+    background-color: var(--body);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line {
+    width: 85%;
+    height: 1px;
+    margin: 0 25px;
+    background-color: black;
+}
+
+.price {
+    display: flex;
+    justify-content: end;
+}
+
+.list-items {
+    display: flex;
+    justify-content: space-between;
+}
