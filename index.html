@@ -8,24 +8,43 @@
     <title>Shopping-list</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/4536ac0bd0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <h1>Add product</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Shopping list</a>
-                </li>
-                <li>
-                    <a href="add-product.html">Add product</a>
-                </li>
-            </ul>
-        </nav>
+        <section class="shop-head">
+            <h1>Add product</h1>
+            <nav>
+
+                <a href="index.html">Shopping list</a>
+                <a href="add-product.html">Add product</a>
+                <a href="">About us</a>
+
+            </nav>
+        </section>
+        <section class="shop-list">
+            <i class="fa-solid fa-circle-plus"></i>
+            <h3> 2/3 Bought</h3>
+        </section>
+
     </header>
     <main>
+        <form class="main-body">
+            <div class="list-items">
+                <label for="cbox1"><input type="checkbox" id="cbox1" value="first_checkbox"> Bread </label>
+                <p>0.75€<i class="fa-solid fa-xmark"></i></p>
+            </div>
+            <div class="list-items">
+                <label for="cbox2"><input type="checkbox" id="cbox2" value="second_checkbox"> Sugar </label>
+                <p>3.75€<i class="fa-solid fa-xmark"></i></p>
+            </div>
+        </form>
 
+        <section class="main-body">
+            <p class="line"></p>
+            <p class="price">6.3€</p>
+        </section>
     </main>
     <footer>
 
